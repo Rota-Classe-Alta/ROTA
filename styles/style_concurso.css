@@ -1,0 +1,356 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+    overflow-x: hidden;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color: #33333511;
+
+    width: 100vw;
+    height: 100px;
+
+    overflow-y: hidden;
+
+    background-image: url(../images/Top\ div.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding-bottom: 15px;
+
+    box-shadow: inset 0px -8px 0px 0px red;
+}
+
+.top_div {
+    display: flex;
+    flex-direction: row;
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+}
+
+.top_div > h1 {
+    margin-top: 25px;
+    margin-left: 15px;
+
+    font-size: 1.4em;
+
+    font-family: 'Cinzel', serif;
+}
+
+.top_div > h2 {
+    margin-top: 55px;
+    margin-left: -300px;
+
+    font-size: 10pt;
+
+    font-family: 'Cinzel', serif;
+}
+
+header > section > img {
+    margin-left: 60px;
+    margin-top: 0px;
+}
+
+.rigth_div {
+    background-color: #4242435e;
+
+    width: 110vh;
+    height: 50px;
+
+    position: relative;
+
+    left: 110vh;
+    bottom: 100px;
+
+    display: flex;
+
+    flex-direction: row;
+
+    border-bottom-left-radius: 50px;
+}
+
+.rigth_div > a > img {
+    width: 35px;
+
+    position: absolute;
+
+    top: 8px;
+    left: 300px;
+}
+
+.rigth_div > p:hover {
+    text-decoration: underline;
+}
+
+.rigth_div > a > img:hover {
+    width: 32px;
+
+    padding: -10px 10px 10px 2px;
+}
+
+.rigth_div > a > .YouTube {
+    left: 340px
+}
+
+.rigth_div > a > .disocrd {
+    left: 380px
+}
+
+.left_div {
+    position: relative;
+
+    left: 72vw;
+    bottom: 60px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.left_div > p {
+    width: 10px;
+}
+
+.left_div > a {
+    color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+    text-decoration: none;
+
+    padding: 0px 10px 1px 15px;
+}
+
+.left_div > a:hover {
+    color: #464646;
+
+    text-decoration: underline;
+}
+
+/*Main*/
+
+main {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding-bottom: 0px;
+
+    background-color: #333335;
+    color: white;
+
+    background-image: url(../images/Foto\ de\ fundo.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.all_documetnos {
+    padding-bottom: 0px;
+    margin-bottom: 25px;
+
+    padding-top: 15px;
+    margin-top: 0px;
+
+    font-family: 'Cinzel', serif;
+}
+
+.todos_os_documetnos {
+    text-align: left;
+    
+    font-size: 16pt;
+
+    max-width: 700px;
+
+    font-size: 13pt;
+
+    padding-top: 0px;
+    margin-top: 0px;
+
+    font-family: 'Inter', sans-serif;
+}
+
+.documetnos_necessarios {
+    margin-left: 30%;
+    
+    padding-bottom: 15%;
+
+    max-width: 700px;
+
+    line-height: 300%;
+}
+
+main > section > .todos_requisitos {
+    text-align: left;
+    
+    font-size: 2em;
+
+    max-width: 1000px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.all_etapas {
+    font-family: 'Cinzel', serif;
+
+    font-size: 2em;
+}
+
+.etapas {
+    margin-left: 30%;
+
+    padding-bottom: 15%;
+
+    max-width: 700px;
+}
+
+.todas_etapas {
+    text-align: left;
+
+    font-size: 16pt;
+
+    max-width: 550px;
+
+    line-height: 225%;
+
+    font-size: 13pt;
+
+    padding-top: 0px;
+    margin-top: 0px;
+
+    font-family: 'Inter', sans-serif;
+}
+
+main > h1 {
+    padding-top: 5%;
+
+    font-family: 'Archivo Narrow', sans-serif;
+
+    text-shadow: 6px 5px 2px rgba(0, 0, 0, 0.541);
+}
+
+main > h2 {
+    padding: 15px;
+
+    text-shadow: 6px 5px 2px rgba(0, 0, 0, 0.61);
+}
+
+.requisitos {
+    padding-top: 200px;
+    padding-bottom: 0px;
+
+    font-size: 3em;
+
+    color: #5F5F5F;
+}
+
+main > h3 {
+    padding: 50px;
+    padding-bottom: 25px;
+
+    text-shadow: 6px 5px 2px rgba(0, 0, 0, 0.582);
+}
+
+.sepa {
+    padding: 10px;
+}
+
+.all {
+    background-color: #333335;
+    color: white;
+
+    margin-top: 200px;
+    margin-bottom: 0px;
+
+    background-image: url(../imagems/Foto\ de\ fundo\ requisitos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main > section > p {
+    max-width: 600px;
+
+    font-weight: 500;
+
+    text-shadow: 6px 5px 2px rgba(0, 0, 0, 0.466);
+
+    margin: auto;
+
+    padding-bottom: 200px;
+}
+
+.class_botao {
+    padding-bottom: 50px;
+}
+
+.botao {
+    width: 200px;
+    height: 30px;
+
+    background-color: grey;
+    border: none;
+
+    color: rgb(255, 255, 255);
+    font-size: 10pt;
+
+    box-shadow: 2px 2px 11px 1px black;
+
+    font-family: 'Cinzel', serif;
+}
+
+.botao:hover {
+    color: black;
+}
+
+/*Footer*/
+
+footer {
+    text-align: center;
+
+    background-color: rgb(20, 20, 20);
+
+    box-shadow: 0px 0px 20px 2px red;
+
+    color: white;
+
+    margin-top: 0px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    bottom: 0;
+}
+
+footer > p {
+    padding: 2px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+footer > p > a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+}
